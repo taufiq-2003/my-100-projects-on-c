@@ -4,6 +4,7 @@ int main()
 {
    char a = '*';
    int x = 1;
+   int y =1;
 
    // printf("\n\nfront order  \n");
 
@@ -34,6 +35,11 @@ int main()
 
    for (int n = 0; n < 5; n++)
    {
+         for (int s = 5; y < s; s--)
+      {
+         printf(" ");
+      }
+      y=y+1;
       for (int p = 0; p < n; p++)
       {
          printf("%c  ", a);
