@@ -6,29 +6,29 @@ int main()
    int x = 1;
    int y =1;
 
-   // printf("\n\nfront order  \n");
+   printf("\n\nfront order  \n");
 
-   // for (int i = 0; i < 5; i++)
-   // {
-   //    for (int j = 0; j < i; j++)
-   //    {
-   //       printf("%c  ", a);
-   //    }
+   for (int i = 0; i < 5; i++)
+   {
+      for (int j = 0; j < i; j++)
+      {
+         printf("%c  ", a);
+      }
    
-   //    printf("%c  \n", a);
-   // }
+      printf("%c  \n", a);
+   }
    
-   // printf("\n\n\nreverse order  \n");
+   printf("\n\n\nreverse order  \n");
 
-   // for (int k = 0; k < 5; k++)
-   // {
-   //    for (int m = 5; x < m; m--)
-   //    {
-   //       printf("%c  ", a);
-   //    }
-   //    x = x + 1;
-   //    printf("%c  \n", a);
-   // }
+   for (int k = 0; k < 5; k++)
+   {
+      for (int m = 5; x < m; m--)
+      {
+         printf("%c  ", a);
+      }
+      x = x + 1;
+      printf("%c  \n", a);
+   }
 
 
    printf("\n\nfront order  \n");
