@@ -7,8 +7,8 @@ int main()
   int j=7;
   
   
-  incr(j);
-  printf("%d  \n",j);
+  int b =incr(j);
+  printf("%d  \n",b);
   
   
   return 0;
